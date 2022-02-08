@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+#btn_limpiar_historiar{
+    position: absolute;
+    bottom: 10px;
+    right:  10px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gran-contenedor{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenedor{
+    width: 400px;
+    height: 560px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+}
+.contenedor1{
+    width: 400px;
+    height: 560px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    margin-right: 30px;
+}
+.contenedor1>div{
+    width: 93%;
+    height: 95%;
+    position: relative;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+.panel{
+    position: relative;
+    width: 90%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+}
+
+.panel p{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.history{
+    display: block ruby;
+    text-align: right;
+}
+.simbolo{
+    display: none;
+}
+
+.numero-b{
+    font-size: 38px !important;
+}
+#btn_historiar{
+    width: 160px !important;
+}
+.botones{
+    width: 90%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.botones div button{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+.botones div button:hover{
+    background-color: rgb(201, 201, 201);
+}
